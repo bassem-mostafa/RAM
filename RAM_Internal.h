@@ -85,7 +85,7 @@ extern "C"
     // #### Public Type(s) #########################################################
     // #############################################################################
 
-    typedef struct RAM_Instance_Context_t RAM_Instance_Context_t;
+    typedef struct RAM_InstanceContext_t RAM_InstanceContext_t;
 
     typedef struct RAM_Instance
     {
@@ -93,7 +93,7 @@ extern "C"
 
         union
         {
-            RAM_Instance_Context_t * Context;
+            RAM_InstanceContext_t * Context;
         };
     } RAM_Instance_t;
 
